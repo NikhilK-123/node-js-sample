@@ -10,4 +10,4 @@ RUN npm install
 EXPOSE 9005
 
 
-ENTRYPOINT ["node","start"]
+ENTRYPOINT ["npm","start"]
